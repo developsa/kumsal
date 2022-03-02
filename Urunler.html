@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Urunler</title>
+  </head>
+  <body>
+    <h3>Ürün İsimleri</h3>
+    <ul>                              <!-- ul= Sırasız liste anlamına gelir  -->
+      <li><a href="https://www.medicalpark.com.tr/kusburnu-faydalari/hg-2473">Kuşburnu</a></li>    <!-- li =Yazdığımız şeyleri liste haline getirir. -->   <!-- a href anlamı =yazdığımız herhangi bir şeye link koyma durumu -->
+      <li><a href="https://tr.wikipedia.org/wiki/Pekmez">Pekmez</a></li>
+      <li><a href="https://www.peynircibaba.com/pestil-nedir">Pestil</a></li>
+      <li><a href="https://tr.wikipedia.org/wiki/Kuru_%C3%BCz%C3%BCm">Kuru üzüm</a></li>
+    </ul>
+
+<form  action="mailto:semih502010@hotmail.com" method="post" enctype="text/plain">  <!-- Form kısmı yaratır -->     <!-- Action işlevi butona tıkladığımızda bizi şu siteye aktarsın dediğimiz dinleyici(javadaki gibi)-->  <!--enctype formun nasıl yapılmasını belirtir meta charset="utf-8" gibi. text plain ise düz metin olarak kodlandığını belirtir -->
+<label>Ürün Adı:</label>   <!-- Label her zaman kullandığımız başlık adlarıdır (Gui de kullandığım gibi)-->
+<input type="text" name="Product Name" value="">   <!--Girdi sayesinde text in içine yazarız. -->
+<input type="color" name="" value="">  <!-- Buton rengi ayarlar-->
+
+<br>
+<br>
+<label >Ürün Şifresi  :</label>
+<input type="password" name="Password" value="">           <!--Şifre Oluşturma yaparız. -->
+<br>
+<br>
+<label>Ürün Son Kullanma Tarihi</label>
+<input type="date" name="Ürünün Son kullanma Tarihi" value="">              <!-- Tarih ataması -->
+<br>
+<br>
+<label>Ürün Fotoğrafını Yükle</label>
+<input type="file" name="" value="">                   <!-- Bilgisayardan herhangi bir dosya yüklenmesini sağlar  -->
+<br>
+<br>
+<label>Ürün Memnuniyetini Seç</label>
+<input type="range" name="" value="">              <!-- Aralık(sıklık) belirtir -->
+<br>
+<br>
+<label>Ürünü Kabul ediyorum</label>
+<input type="checkbox" name="Product check" value"">   <!--Tıklayabildiğimiz onay kutusu  sağlar bize  -->
+<br>
+<br>
+<label>Ürün ile ilgili yorumlarınızı yazınız</label>
+<br>
+<textarea name="Incoming Messages:" rows="10" cols="30"></textarea>            <!--Metin Alanı oluşturur -->
+<br>
+<label>EPostanızı giriniz</label>
+<input type="email" name="Mailiniz" value="">
+<br>
+<input type="submit" name="">    <!--Gönder butonunu oluşturur -->
+
+
+</form>
+
+  </body>
+</html>
